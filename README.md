@@ -12,7 +12,7 @@ Exploratory Data Analysis (EDA): Pembersihan data (data cleansing) dan analisis 
 
 Optimasi Hyperparameter Sederhana: Eksperimen iteratif pencarian random_state terbaik untuk mengoptimalkan evaluasi metrik $R^2$ (R-Squared).
 
-Pemodelan Regresi Linear Berganda: Menggunakan fitur Jumlah Penduduk, Jumlah SD, dan Persentase Penduduk Miskin untuk memprediksi target Angka Buta Huruf.
+Pemodelan Regresi Linear Berganda: Menggunakan fitur Jumlah Penduduk, Jumlah SD, dan Jumlah Penduduk Miskin untuk memprediksi target Angka Buta Huruf.
 
 Prediksi Masa Depan (3-Year Forecasting): Memprediksi tren pertumbuhan indikator pendukung serta nilai Angka Buta Huruf untuk periode 2024–2026.
 
@@ -20,13 +20,13 @@ Prediksi Masa Depan (3-Year Forecasting): Memprediksi tren pertumbuhan indikator
 
 Bahasa Pemrograman: Python 3
 
-Manipulasi Data: pandas, numpy
+Manipulasi Data: pandas, numpy, openpyxl
 
 Machine Learning & Statistik: scikit-learn (LinearRegression, train_test_split, r2_score, mean_absolute_error, mean_squared_error)
 
-📂 Struktur Dataset (Project1.xlsx)
+📂 Struktur Dataset (Data_New.xlsx)
 
-Dataset memuat 189 baris data histori (2017–2023) dengan fitur-fitur berikut:
+Dataset memuat 189 baris data histori (2017–2023) tanpa missing value dengan fitur-fitur berikut:
 
 Kota/Kabupaten & Tahun (Variabel Identitas)
 
@@ -34,7 +34,7 @@ Jumlah Penduduk (Fitur / $X_1$)
 
 Jumlah SD (Fitur / $X_2$)
 
-Presentase Penduduk Miskin (Fitur / $X_3$)
+Jumlah Penduduk Miskin (Fitur / $X_3$)
 
 Angka Buta Huruf (Target / $Y$)
 
@@ -61,14 +61,15 @@ Angka Buta Huruf (Target / $Y$)
 
 Clone repositori ini ke komputer Anda:
 
-git clone https://github.com/NitaaSF/prediksi_Angka_Buta_Huruf
+git clone https://github.com/NitaaSF/prediksi_Angka_Buta_Huruf.git
+cd prediksi_Angka_Buta_Huruf
 
 
+Pastikan dataset Data_New.xlsx berada dalam direktori yang sama dengan notebook.
 
-Pastikan dependensi terinstal:
+Instal dependensi yang diperlukan:
 
 pip install pandas numpy scikit-learn openpyxl
-
 
 
 Buka file .ipynb menggunakan Jupyter Notebook, VS Code, atau unggah ke Google Colab.
