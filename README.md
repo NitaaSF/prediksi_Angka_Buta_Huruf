@@ -42,31 +42,20 @@ Angka Buta Huruf (Target / $Y$)
 
 1. Evaluasi Model Prediksi
 
-Best Random State: 36789
-
-R-Squared ($R^2$): ~0.5801 (Model menjelaskan ~58% variansi target)
-
-Mean Absolute Error (MAE): 0.5780
-
-Mean Squared Error (MSE): 0.6049
+| Metrik Evaluasi | Nilai | Keterangan / Interpretasi |
+| :--- | :---: | :--- |
+| **Best Random State** | `36789` | Titik acuan *split* data optimal terbaik |
+| **R-Squared (R²)** | `0.5801` | Model mampu menjelaskan ~58% variansi target |
+| **MAE (Mean Absolute Error)** | `0.5780` | Rata-rata tingkat kesalahan absolut prediksi |
+| **MSE (Mean Squared Error)** | `0.6049` | Rata-rata kuadrat error dari model regresi |
 
 2. Proyeksi Angka Buta Huruf (2024 – 2026)
 
-Tahun
-
-Prediksi Angka Buta Huruf (%)
-
-2024
-
-1.311%
-
-2025
-
-1.327%
-
-2026
-
-1.344%
+| Tahun | Prediksi Angka Buta Huruf (%) |
+| :---: | :---: |
+| 2024 | 1.311% |
+| 2025 | 1.327% |
+| 2026 | 1.344% |
 
 🚀 Cara Menjalankan Notebook
 
